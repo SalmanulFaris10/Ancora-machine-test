@@ -246,9 +246,6 @@ header .navbar ul.navbar-nav li a.active-link::after {
   height: 2.75px;
   background-color: #0EE3C4;
 }
-header .navbar .mobile-menu {
-  margin-bottom: 25px;
-}
 header .navbar .mobile-menu .navbar-toggler {
   margin: 0 auto;
   border: none;
@@ -939,6 +936,12 @@ footer .bottom ul.nav li a {
   #about .img1, #about .img2 {
     text-align: center;
   }
+  header .navbar .mobile-menu {
+    margin-bottom: 25px !important;
+  }
+  #bannerCarousel {
+    height: 900px;
+  }
 }
 @media (max-width: 1750px) {
   #promotions .slick-prev {
@@ -970,6 +973,17 @@ footer .bottom ul.nav li a {
     right: -1%;
   }
 }
+@media (max-width: 1400px) {
+  header {
+    padding-top: 50px;
+  }
+  header .navbar .mobile-menu {
+    margin-bottom: 0;
+  }
+  header .logo {
+    margin-bottom: 25px;
+  }
+}
 @media (max-width: 1600px) {
   #promotions .wave1 {
     right: 0;
@@ -980,5 +994,16 @@ footer .bottom ul.nav li a {
   #bannerCarousel .fixed-btn a {
     font-size: 14px;
     padding: 20px 28px;
+  }
+}
+@media (max-width: 580px) {
+  #bannerCarousel {
+    height: 800px;
+  }
+  footer .btn {
+    font-size: 11px;
+  }
+  footer .top .right .subcrib-form form input[type=submit] {
+    padding: 20px;
   }
 }
