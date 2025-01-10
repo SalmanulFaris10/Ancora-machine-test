@@ -936,6 +936,9 @@ footer .bottom ul.nav li a {
   #about .main-outer {
     height: auto;
   }
+  #about .img1, #about .img2 {
+    text-align: center;
+  }
 }
 @media (max-width: 1750px) {
   #promotions .slick-prev {
@@ -957,5 +960,25 @@ footer .bottom ul.nav li a {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
             justify-content: center !important;
+  }
+}
+@media (max-width: 1720px) {
+  #promotions .wave1 {
+    right: 0;
+  }
+  #gallery .wave1 {
+    right: -1%;
+  }
+}
+@media (max-width: 1600px) {
+  #promotions .wave1 {
+    right: 0;
+  }
+  #gallery .wave1 {
+    right: -1%;
+  }
+  #bannerCarousel .fixed-btn a {
+    font-size: 14px;
+    padding: 20px 28px;
   }
 }
