@@ -166,6 +166,9 @@ header{
     }
     .btn{
         padding: 16px 39px;
+        &:hover{
+            border: 1px solid $primary-color;
+        }
     }
 
     .img1{
@@ -397,6 +400,11 @@ header{
         transform: translate(-50%,0);
         a{
             padding: 14px 40px 18px 40px;
+        }
+    }
+    .btn{
+        &:hover{
+            border: 1px solid $primary-color;
         }
     }
 }

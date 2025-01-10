@@ -349,6 +349,9 @@ header .navbar .mobile-menu .navbar-toggler:focus-visible, header .navbar .mobil
 #about .btn {
   padding: 16px 39px;
 }
+#about .btn:hover {
+  border: 1px solid #243230;
+}
 #about .img1 {
   position: absolute;
   bottom: 277px;
@@ -588,6 +591,9 @@ header .navbar .mobile-menu .navbar-toggler:focus-visible, header .navbar .mobil
 }
 #events .view-more a {
   padding: 14px 40px 18px 40px;
+}
+#events .btn:hover {
+  border: 1px solid #243230;
 }
 
 #gallery {
@@ -983,6 +989,9 @@ footer .bottom ul.nav li a {
   header .logo {
     margin-bottom: 25px;
   }
+  #bannerCarousel .carousel-item {
+    background-position: 60%;
+  }
 }
 @media (max-width: 1600px) {
   #promotions .wave1 {
@@ -1000,10 +1009,18 @@ footer .bottom ul.nav li a {
   #bannerCarousel {
     height: 800px;
   }
-  footer .btn {
-    font-size: 11px;
-  }
   footer .top .right .subcrib-form form input[type=submit] {
     padding: 20px;
+  }
+  #about .main-outer {
+    padding-top: 80px;
+  }
+}
+@media (max-width: 580px) {
+  .subcrib-form .col-4, .subcrib-form .col-8 {
+    width: 100%;
+  }
+  #about .main-outer {
+    padding-top: 90px;
   }
 }

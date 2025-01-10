@@ -107,6 +107,10 @@
     }
     header .navbar .mobile-menu{margin-bottom: 0;}
     header .logo{margin-bottom: 25px;}
+
+    #bannerCarousel .carousel-item{
+        background-position: 60%;
+    }
 }
 @media (max-width:1600px) {
     #promotions .wave1{right: 0;}
@@ -120,8 +124,17 @@
     #bannerCarousel{
         height: 800px;
     }
-    footer .btn{
-        font-size: 11px;
-    }
+
     footer .top .right .subcrib-form form input[type=submit]{padding: 20px;}
+    #about .main-outer{padding-top: 80px;}
+}
+
+
+@media (max-width:580px) {
+    .subcrib-form{
+        .col-4,.col-8{width: 100%;}
+    }
+    #about .main-outer{
+        padding-top: 90px;
+    }
 }
